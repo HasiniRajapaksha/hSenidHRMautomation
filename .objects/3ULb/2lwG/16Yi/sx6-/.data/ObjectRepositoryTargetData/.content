@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kYOkPQs57E6U7PObw50Mww" Reference="jlixWVxK4Eivp7-kjKBINA/jiHheziOLkSCtJb8PYqJ1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" CVScreenId="84131e35-2d5e-4d2a-a6d5-156bff38566e" CvElementArea="871, 612, 272, 19" CvType="InputBox" DesignTimeRectangle="871, 613, 265, 18" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='button' class='combonocheck' tableRow='1' tag='TABLE' /&gt;&lt;webctrl class='iconText' tableRow='1' tag='DIV' /&gt;" Guid="7169baf9-beb5-4edd-99eb-523e9caeaa93" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='opacity' title='Viewer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="2">
+          <Target CVScreenId="84131e35-2d5e-4d2a-a6d5-156bff38566e" CvTextArea="847, 586, 69, 12" CvTextArgument="File Format:" CvType="Text" DesignTimeRectangle="848, 586, 68, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='File Format:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='File Format:' /&gt;" Guid="61466bef-1fe3-41f4-b159-b5eb967686d2" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="84131e35-2d5e-4d2a-a6d5-156bff38566e" CvTextArea="761, 206, 174, 26" CvTextArgument="EIM Profiles" CvType="Text" DesignTimeRectangle="761, 206, 174, 27" ElementType="Text" Guid="91de5f41-79a7-42b8-b951-0e8eeacdf4bd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f92139d63e44f2bd6a7781783429a1a0.png" xmlns="">0H3GIgVLldEObOoEPAUzfhw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

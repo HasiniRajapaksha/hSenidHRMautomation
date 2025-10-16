@@ -1,0 +1,16 @@
+﻿{
+  "Name": "company",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "SLDK61Bg9UGps48HlB1AWA",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/SLDK61Bg9UGps48HlB1AWA",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/xFhl9bogbkSDLZLwgzMW-g",
+  "Created": "2025-10-15T16:46:58.9558403Z",
+  "Updated": "2025-10-15T16:53:49.5813151Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

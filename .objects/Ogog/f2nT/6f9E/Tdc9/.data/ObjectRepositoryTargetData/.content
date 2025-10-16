@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RtEjBYsQGk2FblgjJt3EWA" Reference="jlixWVxK4Eivp7-kjKBINA/ovW7Uv-wMUO0A0DJ_F7axg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" CVScreenId="88e79c17-941e-436a-aef6-dac18d78368e" CvTextArea="1182, 212, 48, 16" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1133, 198, 178, 41" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname=' Logout' parentid='nav_static_top' tag='A' type='' class='' check:innerText='Logout' /&gt;" Guid="a0dd4cb5-d043-41be-97d4-03a8573d7a39" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='ea6149c9-a686-775e-bae8-892fe97a4075' title='PeoplesHR' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="88e79c17-941e-436a-aef6-dac18d78368e" CvTextArea="1193, 117, 103, 17" CvTextArgument="Dummy Profile" CvType="Text" DesignTimeRectangle="1194, 115, 101, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='nav_static_top' tag='STRONG' type='' class='font-bold hidden-xs' aaname='Dummy Profile' check:innerText='Dummy Profile' /&gt;" Guid="205a122e-18a4-4a89-81b0-e67072f53da6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a1183bff1126f0627837d96904f477fd.png" xmlns="">0TmbmFn64wEqUGglHbKMV0w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

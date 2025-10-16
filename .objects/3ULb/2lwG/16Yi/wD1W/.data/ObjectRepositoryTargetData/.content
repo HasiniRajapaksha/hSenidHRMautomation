@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="82T0JY0ZqU-OH8RMiGtSkA" Reference="jlixWVxK4Eivp7-kjKBINA/oQVFy-NrnkWBuBPc6bNijw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" DesignTimeRectangle="373, 360, 300, 114" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='pePromptListBox' aaname='Selected Values:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="df7d2673-e8af-4526-8723-02f71f49cd20" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="6be9ff7e-7ef3-4e50-8090-2f5f74548014" CvTextArea="372, 347, 78, 12" CvTextArgument="Selected Values:" CvType="Text" DesignTimeRectangle="373, 347, 77, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='pePromptElementText' aaname='Selected Values:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Selected Values:' /&gt;" Guid="b2aac28f-d965-45e9-954b-d47ceb7d82d4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="745969a4c70f868610f8100c0f5d7e42.png" xmlns="">0_BgYh6L8L0itkvEDwp2g5Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">InjectJsScript</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

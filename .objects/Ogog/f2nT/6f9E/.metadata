@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Welcome to PeoplesHR",
+  "Type": "Screen",
+  "Id": "6f9Efvliqkup7ssmtq67lQ",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/6f9Efvliqkup7ssmtq67lQ",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/f2nTvDBgAkWdP-Rw3ywhCg",
+  "Created": "2025-10-09T05:59:49.0925106Z",
+  "Updated": "2025-10-09T05:59:49.0925106Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

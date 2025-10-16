@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome CSS Dropdowns",
+  "Type": "Screen",
+  "Id": "74pnvKHrnkyuktYb-ByIrg",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/74pnvKHrnkyuktYb-ByIrg",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/zp0n8bHMDUWfVYK07MaSYg",
+  "Created": "2025-10-14T04:38:34.7066885Z",
+  "Updated": "2025-10-14T04:38:34.7066885Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

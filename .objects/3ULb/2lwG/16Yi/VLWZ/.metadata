@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter Business Unit Lev…",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "VLWZ5n4Qe0KbD-bmM8l1Fg",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/VLWZ5n4Qe0KbD-bmM8l1Fg",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/16YiACdQDkqi7BfHkEOsXg",
+  "Created": "2025-10-14T04:38:27.9665607Z",
+  "Updated": "2025-10-14T04:38:27.9665607Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

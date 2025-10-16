@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Viewer",
+  "Type": "Screen",
+  "Id": "16YiACdQDkqi7BfHkEOsXg",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/16YiACdQDkqi7BfHkEOsXg",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/2lwGWpFNME2rdm9gBzXZLw",
+  "Created": "2025-10-14T04:38:26.7827088Z",
+  "Updated": "2025-10-14T04:38:26.7827088Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

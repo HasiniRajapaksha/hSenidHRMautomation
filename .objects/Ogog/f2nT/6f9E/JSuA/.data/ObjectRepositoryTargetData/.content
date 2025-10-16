@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p_widZZCiUuClfJ6gxjgaw" Reference="jlixWVxK4Eivp7-kjKBINA/0cuGQCm4fkCGoyDcLSZk5g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" CVScreenId="40555289-6d16-474a-950f-9a207de0489e" CvElementArea="1848, 116, 17, 18" CvTextArea="1748, 117, 102, 17" CvTextArgument="Dummy Profile" CvType="ArrowButton" DesignTimeRectangle="1749, 114, 111, 21" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='                                                                      ' parentid='nav_static_top' tag='SPAN' type='' class='block m-t-xs' check:innerText='Dummy Profile' /&gt;" Guid="094e38cf-4c92-4ae5-a3d7-02120bce96e2" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='0e02c86c-ef87-3320-d397-eb7da67d02bd' title='PeoplesHR' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1672, 99, 198, 50" FuzzySelectorArgument="&lt;webctrl type='' class='dropdown profile-element HBSprofile' parentid='nav_static_top' tag='DIV' aaname='                                                                                                ' check:innerText='Dummy Profile' /&gt;" Guid="e445dcb9-8439-4a7b-b203-2ea7ec036ddf" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f60b080b30127c9780c6d8100eeb9c9f.png" xmlns="">0bhsCViUx20ihUwOODHdpEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="T6qwfyYkyEqTTIleOEb3Lg" Reference="jlixWVxK4Eivp7-kjKBINA/jqqDugW4vEW_ylRWGIDhGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" CVScreenId="14407d7e-385f-4fec-853f-d621ed3ffbd8" CvElementArea="12, 129, 68, 26" CvType="Button" DesignTimeRectangle="51, 134, 16, 16" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='crViewer_toptoolbar_export' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='IconImg_crViewer_toptoolbar_export' tableRow='1' tag='IMG' /&gt;" Guid="675ff225-62fe-43a2-a11d-a3493dee9744" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='opacity' title='Viewer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="c319109e-1b3b-4dae-a06d-c89b00706a83" CvTextArea="840, 544, 32, 10" CvTextArgument="Export" CvType="Text" DesignTimeRectangle="818, 536, 373, 25" FuzzySelectorArgument="&lt;webctrl class='dlgTitle' tag='TABLE' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Export' /&gt;" Guid="24340f46-94e5-41d5-95fb-00ae6de13acc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9d6c1343161f808088d35253c5526c26.png" xmlns="">0DDpFiLrjakqcXYno_d8SZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

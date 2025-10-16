@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k_ckwTx3cUaIXbdWuqQm-Q" Reference="jlixWVxK4Eivp7-kjKBINA/zaBA3LQdckyWZIJN5ixKnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" DesignTimeRectangle="228, 129, 1700, 911" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='page-wrapper' tag='DIV' /&gt;" Guid="43ff9a5f-66a6-4eaf-aefd-9579c2a05266" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Welcome to PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="09862256aee8e2dc0459df8d6173896f.png" xmlns="">0OIYw-h3z-0enrnrZw2-k6A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

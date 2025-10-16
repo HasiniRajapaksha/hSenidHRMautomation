@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter Active  Inactive",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "e_tNPod4UUWHNyQEYc20Dw",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/e_tNPod4UUWHNyQEYc20Dw",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/6f9Efvliqkup7ssmtq67lQ",
+  "Created": "2025-10-10T10:47:17.0717528Z",
+  "Updated": "2025-10-10T10:47:17.0717528Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

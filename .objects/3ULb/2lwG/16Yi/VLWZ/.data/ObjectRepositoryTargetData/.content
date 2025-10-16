@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pH8EUNUmu021_9wp2Cqxgw" Reference="jlixWVxK4Eivp7-kjKBINA/Z3GZs7hvVU-hkUIDO1Zusw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" CVScreenId="441ac7a3-ad44-4b4b-88e2-405a52a51cc5" CvElementArea="29, 281, 301, 20" CvType="InputBox" DesignTimeRectangle="29, 283, 300, 17" DesignTimeScaleFactor="1" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='pePromptDropDown' aaname='' /&gt;" Guid="b2ad60e0-6adc-4a19-86e3-6ae615481cb2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="2">
+          <Target CVScreenId="441ac7a3-ad44-4b4b-88e2-405a52a51cc5" CvTextArea="20, 256, 123, 12" CvTextArgument="Enter Business Unit Level:" CvType="Text" DesignTimeRectangle="21, 256, 122, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='pePromptingText' aaname='Enter Business Unit Level:' check:innerText='Enter Business Unit Level:' /&gt;" Guid="1bafbe8b-7da9-4f91-a6d4-b437537a33d1" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="441ac7a3-ad44-4b4b-88e2-405a52a51cc5" CvTextArea="22, 235, 110, 13" CvTextArgument="HIE_CODE/DEF_LEVEL" CvType="Text" DesignTimeRectangle="19, 233, 1780, 15" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='pePromptUnitHeaderTextLeft' aaname='' check:innerText='HIE_CODE/DEF_LEVEL' /&gt;" Guid="3ebcc390-595e-48e5-86b5-adf790bdc63b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9179a1791b487ef7f578d8e3f521713e.png" xmlns="">0HaVK6IXN4k6IMtz7R59ofA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X5d0Fc84c0moJQpQOu2bRA" Reference="jlixWVxK4Eivp7-kjKBINA/geeU78ETGEWRVk-M639mOg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" DesignTimeRectangle="29, 171, 300, 17" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;fieldset&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;" Guid="c4d24b0b-354a-4222-a666-bde98d6530eb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="3f5b4a339c93e6f801f3766d76818774.png" xmlns="">05xx0YcADEUyI9TVk8ZYxVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hcvr7H8IV0WSvkgyuqbx8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 0, 0" FullSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;&lt;webctrl tableCol='1' tableRow='1' tag='TABLE' idx='12' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;" Guid="63bb90a9-5834-4337-8faf-1d2b3395f15d" SearchSteps="Selector" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="2c1806f1b8924475ac1da75a0f3e4e22.png" xmlns="">0u3p_RVY-JE2Bk9brZvKXag</imageRef>
+    </TargetAnchorable>
+    <p:InArgument x:TypeArguments="ui:WaitForReady" x:Key="ClassicWaitForReady">COMPLETE</p:InArgument>
+    <x:Boolean x:Key="IsClassic">True</x:Boolean>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

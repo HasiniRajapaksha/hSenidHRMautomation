@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-qJoal8dpEybO3qOCLc8Gg" Reference="jlixWVxK4Eivp7-kjKBINA/-Z5plBrsokaTlOk0qboxHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" CVScreenId="b53387d0-37a1-4b0a-8fb8-69ce2f4c37f3" CvElementArea="28, 169, 303, 20" CvType="InputBox" DesignTimeRectangle="29, 171, 300, 17" DesignTimeScaleFactor="1" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='pePromptDropDown' aaname='' /&gt;" Guid="e639e640-ee71-461e-ade1-0680e7c1337e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="b53387d0-37a1-4b0a-8fb8-69ce2f4c37f3" CvTextArea="22, 141, 110, 11" CvTextArgument="Enter Active / Inactive:" CvType="Text" DesignTimeRectangle="20, 140, 115, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname=' Enter Active / Inactive: ' check:innerText='Enter Active / Inactive:' /&gt;" Guid="f2a9cb02-c31e-4ceb-b4f8-eccbf7ddb1a3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e549470dd21b06d37b35e6a7b9afe847.png" xmlns="">0lUxufIzqfkSI-ZMAB2lQAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

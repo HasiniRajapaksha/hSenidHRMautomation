@@ -1,0 +1,607 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="hSenidHRM_Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:swa="clr-namespace:System.Windows.Automation;assembly=UIAutomationTypes" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_Config" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>hSenidHRM_Login_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Windows.Automation</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>UIAutomationClient</AssemblyReference>
+      <AssemblyReference>UIAutomationTypes</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="hSenidHRM_Login" sap:VirtualizedContainerService.HintSize="938,6265" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ss:SecureString" Name="password" />
+      <Variable x:TypeArguments="x:String" Name="username" />
+      <Variable x:TypeArguments="x:String" Default="EIM Profiles New" Name="SearchValue" />
+      <Variable x:TypeArguments="scg:List(x:String)" Name="companiesToSelect" />
+      <Variable x:TypeArguments="x:String" Name="peoplesHRURL" />
+      <Variable x:TypeArguments="x:String" Name="currentDate" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="660,6242" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="624,6140" sap2010:WorkflowViewState.IdRef="Sequence_15">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <TryCatch sap2010:Annotation.AnnotationText="Try to log into PeoplsHR portal " DisplayName="Login PeoplesHR" sap:VirtualizedContainerService.HintSize="590,6080" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TryCatch.Try>
+              <Sequence sap:VirtualizedContainerService.HintSize="552,5754" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="518,173" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Starting PeoplesHR Portal Login&quot;]" />
+                <Assign sap:VirtualizedContainerService.HintSize="518,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign.To>
+                    <OutArgument x:TypeArguments="x:String">[peoplesHRURL]</OutArgument>
+                  </Assign.To>
+                  <Assign.Value>
+                    <InArgument x:TypeArguments="x:String">[in_Config("ApplicationURL").ToString]</InArgument>
+                  </Assign.Value>
+                </Assign>
+                <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[NAppCloseMode.Never]" ContinueOnError="True" DisplayName="Chrome Welcome to PeoplesHR" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,5407" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V2" WindowResize="Maximize">
+                  <uix:NApplicationCard.Body>
+                    <ActivityAction x:TypeArguments="x:Object">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,5127" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="jsResult" />
+                          <Variable x:TypeArguments="x:String" Name="ViewerURL" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:GetRobotCredential AssetName="PeoplesHR" CacheStrategy="None" DisplayName="Get Credential" FolderPath="HR" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[password]" TimeoutMS="3000" Username="[username]" />
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Username" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Text="[username]" Timeout="10" Version="V5">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/security/login" ContentHash="SVVM0kVT1kGFvBzRUJE37w" DesignTimeRectangle="1068, 573, 600, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='txtusername' tag='INPUT' name='UserName' placeholder='Username' type='text' /&gt;" Guid="419d4fe0-21f8-45c8-8e32-63a75d8b8458" InformativeScreenshot="e1a6ddd6312ddb52ff5b0089ab995c7f.png" Reference="jlixWVxK4Eivp7-kjKBINA/8WLWRLbdH0SwlbOoYyAByQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Welcome to PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NTypeInto.Target>
+                          <uix:NTypeInto.VerifyOptions>
+                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" ExpectedText="[username]" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            </uix:VerifyExecutionTypeIntoOptions>
+                          </uix:NTypeInto.VerifyOptions>
+                        </uix:NTypeInto>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" ClipboardMode="Never" DisplayName="Type Password" EmptyFieldMode="MultiLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="WindowMessages" IsPassword="True" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" SecureText="[password]" Timeout="10" Version="V5">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/security/login" ContentHash="cfxxhW6gFEim9zGBcPrcQA" DesignTimeRectangle="1068, 627, 600, 38" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='txtpassword' tag='INPUT' /&gt;" Guid="48142e67-75e6-497f-bcbb-63a479f79788" InformativeScreenshot="2eeb3ea88d355a2f6dfcf4a4fcce0a38.png" Reference="jlixWVxK4Eivp7-kjKBINA/AjrU0f0uhUiw9fZzfdduQg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Welcome to PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NTypeInto.Target>
+                          <uix:NTypeInto.VerifyOptions>
+                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            </uix:VerifyExecutionTypeIntoOptions>
+                          </uix:NTypeInto.VerifyOptions>
+                        </uix:NTypeInto>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Timeout="10" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/security/login" ContentHash="M3sGpLbNQk6N9WEeKf0Jfw" DesignTimeRectangle="1068, 681, 600, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btnsubmit' tag='INPUT' /&gt;" Guid="d9294f4c-c15a-42db-87c4-34bb4bad65a1" InformativeScreenshot="1bc529827e3a3f9781e6e7fff4d9a5bd.png" Reference="jlixWVxK4Eivp7-kjKBINA/rUzfYyeyaUSfriygJ-sOyw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Welcome to PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="Show Notification" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="k_ckwTx3cUaIXbdWuqQm-Q" DesignTimeRectangle="228, 129, 1700, 911" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='page-wrapper' tag='DIV' /&gt;" Guid="43ff9a5f-66a6-4eaf-aefd-9579c2a05266" InformativeScreenshot="09862256aee8e2dc0459df8d6173896f.png" Reference="jlixWVxK4Eivp7-kjKBINA/6uSA9fMHtUySsw4IPimedA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Welcome to PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:VerifyExecutionOptions.Target>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'EM'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="ZV92plLr_kCBs2jxxshaXQ" DesignTimeRectangle="33, 303, 18, 16" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='qck19' tag='EM' /&gt;" FuzzyAccuracy="0.98" FuzzySelectorArgument="&lt;webctrl parentid='qck19' tag='EM' type='' class='fas fa-newspaper' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='' /&gt;" Guid="70aba5bb-a380-43c5-b554-9eec95ea1bba" InformativeScreenshot="f69f7f4806c4799410648f7e0818fa71.png" Reference="jlixWVxK4Eivp7-kjKBINA/eUAWdowvwECxFGcLAFbhLg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/hr/home/index' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Complete" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="Element 'Element 'Report NavigatorModule …''" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="4Z8IeObISEaBXmFGeTqD7w" DesignTimeRectangle="404, 286, 282, 176" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='col-lg-3' tag='DIV' innertext='Report NavigatorModule ConfigurationUser GroupsAdd ReportsMy ReportsDefine Custom Filtration' visibleinnertext='Report Navigator&amp;#xA;Module Configuration&amp;#xA;User Groups&amp;#xA;Add Reports&amp;#xA;My Reports&amp;#xA;Define Custom Filtration' /&gt;" Guid="ff901b86-8ea4-46de-b3b8-8e0d2ab1313e" InformativeScreenshot="fb5c8ff7f9ab0cfeaac109d9c8eadbb9.png" Reference="jlixWVxK4Eivp7-kjKBINA/cY1bU2252kS0Hlf8Pc_gxQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/hr/home/index' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:VerifyExecutionOptions.Target>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'My Reports'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="Y7nsG1bG-kOfFcdRlRMLSg" DesignTimeRectangle="144, 405, 63, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='My Reports' tag='A' innertext='My Reports' visibleinnertext='My Reports' /&gt;" Guid="54f9f0cc-ba05-48e8-97de-ba3072f65f76" InformativeScreenshot="618d0f72b324591f41c4ed7809ef7d90.png" Reference="jlixWVxK4Eivp7-kjKBINA/sgRmSxRj6EOzmsQvJb_oAA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="My Reports" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="fK04rxQKc0yD4PzccOCEbA" DesignTimeRectangle="78, 129, 1835, 1488" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='page-wrapper' tag='DIV' /&gt;" Guid="33adefde-ed51-409a-b570-5a86641489bd" InformativeScreenshot="2190af3230deeca80bf09a0f8a84fb2e.png" Reference="jlixWVxK4Eivp7-kjKBINA/o0ON3UtToECE-OJpkPeiXw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                              </uix:VerifyExecutionOptions.Target>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'EIM'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="4DThmaCLXUWOgYimV5Fk2g" DesignTimeRectangle="144, 385, 21, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='button' tag='A' aaname='EIM' innertext='EIM' visibleinnertext='EIM' /&gt;" Guid="653af38c-187b-46c4-a631-234954111102" InformativeScreenshot="b3f632e1e8ed18ff8a3725b2dd93cd68.png" Reference="jlixWVxK4Eivp7-kjKBINA/x2jCbTIHGk6SIB-gxGvleA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="Element 'Element'My Report''" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="fK04rxQKc0yD4PzccOCEbA" DesignTimeRectangle="78, 129, 1835, 1488" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='page-wrapper' tag='DIV' /&gt;" Guid="33adefde-ed51-409a-b570-5a86641489bd" InformativeScreenshot="2190af3230deeca80bf09a0f8a84fb2e.png" Reference="jlixWVxK4Eivp7-kjKBINA/o0ON3UtToECE-OJpkPeiXw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                              </uix:VerifyExecutionOptions.Target>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Search'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,286" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Text="[SearchValue]" Version="V5">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="rKuclxVxOkySCW-OuW_XCg" DesignTimeRectangle="1215, 472, 163, 28" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='form-control form-control-sm' placeholder='Search for...' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="57cafa6e-8f06-4295-82c3-626f91dc7c20" InformativeScreenshot="a6ce25702eaca47cd57d9a61584b079b.png" Reference="jlixWVxK4Eivp7-kjKBINA/HSIvl9mgtEycYADL_bxJlA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="1164, 472, 214, 28" ElementType="Text" FullSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;&lt;webctrl parentid='RptTable_filter' tag='LABEL' aaname='Search :' innertext='Search :' visibleinnertext='Search :' /&gt;" Guid="d0c32e7e-57be-47f1-9ac2-47f9856fca69" SearchSteps="Selector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NTypeInto.Target>
+                          <uix:NTypeInto.VerifyOptions>
+                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" ExpectedText="[SearchValue]" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            </uix:VerifyExecutionTypeIntoOptions>
+                          </uix:NTypeInto.VerifyOptions>
+                        </uix:NTypeInto>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'EIM Profiles New'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/home/index" ContentHash="Tp35UZ3jmE20eV-Lc1Y6xg" DesignTimeRectangle="162, 562, 94, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='RptTable' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' aaname='EIM Profiles New' innertext='EIM Profiles New' rowName='                     EIM Profiles New                                        ' visibleinnertext='EIM Profiles New' /&gt;" Guid="629172de-b293-45b6-ba9c-c5587c7741c7" InformativeScreenshot="f6e2f4f47615934ab3dc8f031da020ea.png" Reference="jlixWVxK4Eivp7-kjKBINA/Het39-Knoke4tl_584YsOQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <uix:NSelectItem DisplayName="Select Item Active/Inactive" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NSelectItem_8" Item="Active" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NSelectItem.Items>
+                            <scg:List x:TypeArguments="x:String" Capacity="3">
+                              <x:String>...</x:String>
+                              <x:String>Active</x:String>
+                              <x:String>Inactive</x:String>
+                            </scg:List>
+                          </uix:NSelectItem.Items>
+                          <uix:NSelectItem.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="9--W3iQozEeDpim5a4Rlog" DesignTimeRectangle="29, 171, 300, 17" ElementType="DropDown" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;fieldset&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;" Guid="c4d24b0b-354a-4222-a666-bde98d6530eb" InformativeScreenshot="3f5b4a339c93e6f801f3766d76818774.png" Reference="jlixWVxK4Eivp7-kjKBINA/geeU78ETGEWRVk-M639mOg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                          </uix:NSelectItem.Target>
+                        </uix:NSelectItem>
+                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                          <ui:CommentOut.Body>
+                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,238" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT  crViewer_p1Sele...'" sap:VirtualizedContainerService.HintSize="382,178" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="Company">
+                                <ui:SelectItem.Items>
+                                  <scg:List x:TypeArguments="x:String" Capacity="8">
+                                    <x:String>...</x:String>
+                                    <x:String>Group</x:String>
+                                    <x:String>Company</x:String>
+                                    <x:String>Department</x:String>
+                                    <x:String>Sub Department</x:String>
+                                  </scg:List>
+                                </ui:SelectItem.Items>
+                                <ui:SelectItem.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0d79a2d6-4945-41e3-aeee-e4391f8a72bb" InformativeScreenshot="43e0ab7444168aa8343a6d2a6c5ad5ba" Selector="&lt;html app='chrome.exe' title='Viewer' /&gt;&lt;webctrl tableRow='1' tag='SELECT' id='crViewer_p1SelectValue' innertext='...GroupCompanyDepartmentSub Department' onchange='crViewer_p1_selectValue(this.form)' /&gt;" WaitForReady="COMPLETE">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                  </ui:Target>
+                                </ui:SelectItem.Target>
+                              </ui:SelectItem>
+                            </Sequence>
+                          </ui:CommentOut.Body>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:CommentOut>
+                        <uix:NSelectItem DisplayName="Select Item '...(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NSelectItem_19" Item="Company" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NSelectItem.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="QlaIm0sPhkCdH-HaSFNY-w" DesignTimeRectangle="29, 283, 300, 17" ElementType="DropDown" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;&lt;webctrl tableRow='1' tag='SELECT' id='crViewer_p1SelectValue' innertext='...GroupCompanyDepartmentSub Department' onchange='crViewer_p1_selectValue(this.form)' /&gt;" Guid="55043695-a68f-4a57-8689-752436472b33" InformativeScreenshot="5c6db53176a664942b5e7eeb04627332.png" Reference="jlixWVxK4Eivp7-kjKBINA/xFhl9bogbkSDLZLwgzMW-g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" SelectionStrategy="AA" Version="V6" WaitForReadyArgument="Complete" />
+                          </uix:NSelectItem.Target>
+                        </uix:NSelectItem>
+                        <Assign sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_2">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="scg:List(x:String)">[companiesToSelect]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="scg:List(x:String)">[in_Config("CompanyCodes").ToString().Split(","c).ToList()]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[&quot;Selecting companies: &quot; + String.Join(&quot;, &quot;, companiesToSelect)]" />
+                        <uix:NInjectJsScript InputParameter="{x:Null}" DisplayName="Inject Js Script 'Available ValuesSelect…'" sap:VirtualizedContainerService.HintSize="450,190" sap2010:WorkflowViewState.IdRef="NInjectJsScript_1" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" ScriptCode="[String.Format(&quot;function(element, input) {{ &quot; &amp; _&#xA;&quot;try {{ &quot; &amp; _&#xA;&quot;var codes = [{0}]; &quot; &amp; _&#xA;&quot;var list = document.getElementById('crViewer_p2AvailableList'); &quot; &amp; _&#xA;&quot;if (!list) return 'ERROR: List not found'; &quot; &amp; _&#xA;&quot;for (var i = 0; i &lt; list.options.length; i++) {{ list.options[i].selected = false; }} &quot; &amp; _&#xA;&quot;var count = 0; &quot; &amp; _&#xA;&quot;for (var i = 0; i &lt; list.options.length; i++) {{ &quot; &amp; _&#xA;&quot;if (codes.indexOf(list.options[i].value) !== -1) {{ &quot; &amp; _&#xA;&quot;list.options[i].selected = true; count++; }} }} &quot; &amp; _&#xA;&quot;if (count &gt; 0) {{ &quot; &amp; _&#xA;&quot;var btn = document.querySelector('img[alt=&quot;&quot;Add a discrete Value&quot;&quot;]'); &quot; &amp; _&#xA;&quot;if (!btn) btn = document.querySelector('img[src*=&quot;&quot;addfield.gif&quot;&quot;]'); &quot; &amp; _&#xA;&quot;if (btn) {{ btn.click(); return 'SUCCESS: Added ' + count + ' companies'; }} &quot; &amp; _&#xA;&quot;return 'ERROR: Button not found'; }} &quot; &amp; _&#xA;&quot;return 'WARNING: No companies found'; &quot; &amp; _&#xA;&quot;}} catch(e) {{ return 'ERROR: ' + e.message; }} &quot; &amp; _&#xA;&quot;}}&quot;, _&#xA;String.Join(&quot;, &quot;, companiesToSelect.Select(Function(c) &quot;&quot;&quot;&quot; &amp; c.Trim() &amp; &quot;&quot;&quot;&quot;).ToArray()))]" Version="V5">
+                          <uix:NInjectJsScript.ScriptOutput>
+                            <OutArgument x:TypeArguments="x:String">[jsResult]</OutArgument>
+                          </uix:NInjectJsScript.ScriptOutput>
+                          <uix:NInjectJsScript.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="diBMZHIr-k2cnddbiP85FA" DesignTimeRectangle="29, 363, 300, 114" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='SELECT' id='crViewer_p2AvailableList' /&gt;" Guid="0e852ad7-abec-4d06-af34-629925bd6f17" InformativeScreenshot="658bda244c04a0924b1ed59d5d398423.png" Reference="jlixWVxK4Eivp7-kjKBINA/qIIN_skOJ02f1qN7EJ7IZQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NInjectJsScript.Target>
+                        </uix:NInjectJsScript>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;JS Result: &quot; + jsResult]" />
+                        <If Condition="[jsResult.Contains(&quot;SUCCESS&quot;)]" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="If_1">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,226" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,166" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info" Message="[&quot;Companies selected successfully&quot;]" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484,483" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <If Condition="[jsResult.Contains(&quot;ERROR&quot;)]" sap:VirtualizedContainerService.HintSize="450,423" sap2010:WorkflowViewState.IdRef="If_2">
+                                <If.Then>
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,173" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <Throw Exception="[New BusinessRuleException(&quot;Failed to select companies: &quot; + jsResult)]" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="Throw_3" />
+                                  </Sequence>
+                                </If.Then>
+                                <If.Else>
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Sequence>
+                                </If.Else>
+                              </If>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                        <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="450,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                        <uix:NInjectJsScript InputParameter="{x:Null}" DisplayName="Verify selected list" sap:VirtualizedContainerService.HintSize="450,190" sap2010:WorkflowViewState.IdRef="NInjectJsScript_2" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" ScriptCode="[&quot;function(element, input) { &quot; &amp; _&#xA;&quot;try { &quot; &amp; _&#xA;&quot;var selectedList = document.getElementById('crViewer_p2ListBox'); &quot; &amp; _&#xA;&quot;if (!selectedList) return 'ERROR: Selected list not found'; &quot; &amp; _&#xA;&quot;var count = selectedList.options.length; &quot; &amp; _&#xA;&quot;var items = []; &quot; &amp; _&#xA;&quot;for (var i = 0; i &lt; selectedList.options.length; i++) { &quot; &amp; _&#xA;&quot;items.push(selectedList.options[i].text); } &quot; &amp; _&#xA;&quot;return 'SELECTED: ' + count + ' companies - ' + items.join(', '); &quot; &amp; _&#xA;&quot;} catch(e) { return 'ERROR: ' + e.message; } &quot; &amp; _&#xA;&quot;}&quot;]" Version="V5">
+                          <uix:NInjectJsScript.ScriptOutput>
+                            <OutArgument x:TypeArguments="x:String">[jsResult]</OutArgument>
+                          </uix:NInjectJsScript.ScriptOutput>
+                          <uix:NInjectJsScript.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="82T0JY0ZqU-OH8RMiGtSkA" DesignTimeRectangle="373, 360, 300, 114" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SELECT' class='pePromptListBox' aaname='Selected Values:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="df7d2673-e8af-4526-8723-02f71f49cd20" InformativeScreenshot="745969a4c70f868610f8100c0f5d7e42.png" Reference="jlixWVxK4Eivp7-kjKBINA/wD1WPb1UckaRouLta7Iggw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="6be9ff7e-7ef3-4e50-8090-2f5f74548014" CvTextArea="372, 347, 78, 12" CvTextArgument="Selected Values:" CvType="Text" DesignTimeRectangle="373, 347, 77, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='pePromptElementText' aaname='Selected Values:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Selected Values:' /&gt;" Guid="b2aac28f-d965-45e9-954b-d47ceb7d82d4" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NInjectJsScript.Target>
+                        </uix:NInjectJsScript>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Verification: &quot; + jsResult]" />
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_20" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="-1MzEM_O40WVL087t3Ctog" DesignTimeRectangle="948, 550, 40, 13" ElementType="Text" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;webctrl parentid='crViewer__UIcridpromptpage' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='crViewer_submitButton' tableRow='1' tag='A' /&gt;" Guid="feb58b6c-35b6-421f-91fc-b143633885e4" InformativeScreenshot="88ee2997600f5bc1e7002c82c585c316.png" Reference="jlixWVxK4Eivp7-kjKBINA/GO9qDqZ1LUWcJ6mzS0CVZQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="Label 'Label 'EIM Profiles''" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="xTgCVSADHU29SIt5Vdyuxg" DesignTimeRectangle="761, 194, 173, 35" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='bobjid_1760475973836' tag='TABLE' /&gt;&lt;webctrl tableRow='7' tag='IFRAME' /&gt;&lt;webctrl aaname='EIM Profiles' tag='SPAN' /&gt;" Guid="b4771d69-bfad-432c-aa65-247a51804d89" InformativeScreenshot="3be9f5c22871d4c4317676710accbf21.png" Reference="jlixWVxK4Eivp7-kjKBINA/0G9NFn_PAE-7xt60iJ-8iA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:VerifyExecutionOptions.Target>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IMG IconImg_crViewer_to…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_21" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="ZaXrcTa4ekuEY_V4mk4tLg" DesignTimeRectangle="51, 134, 16, 16" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='crViewer_toptoolbar_export' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='IconImg_crViewer_toptoolbar_export' tableRow='1' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl id='crViewer_toptoolbar_export' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='IconImg_crViewer_toptoolbar_export' type='' tag='IMG' class='' aaname='Export this report' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3b463b00-4493-4854-98da-5f4c08d428e7" InformativeScreenshot="7d9bc05785dd10daaf33d0a6e4fe3d21.png" Reference="jlixWVxK4Eivp7-kjKBINA/bei31rluCkG3YM5bDXXUOQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                          <uix:NClick.VerifyOptions>
+                            <uix:VerifyExecutionOptions DisplayName="Element 'Element 'ExportFile Format Crys…''" Mode="Appears" Retry="True">
+                              <uix:VerifyExecutionOptions.Target>
+                                <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="GWBHlfkXyE6jEJqWjbAdEA" DesignTimeRectangle="817, 535, 375, 305" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='dlgBox2' tableRow='1' tag='TABLE' /&gt;" Guid="210ba8d4-c3f5-4fd6-b471-5884230cf41d" InformativeScreenshot="d0e595a746903ef4c62cdaeb4a5da386.png" Reference="jlixWVxK4Eivp7-kjKBINA/SFQMhQg2P0-rr4JyrViqCw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                              </uix:VerifyExecutionOptions.Target>
+                              <uix:VerifyExecutionOptions.Timeout>
+                                <InArgument x:TypeArguments="x:Double" />
+                              </uix:VerifyExecutionOptions.Timeout>
+                            </uix:VerifyExecutionOptions>
+                          </uix:NClick.VerifyOptions>
+                        </uix:NClick>
+                        <uix:NSelectItem DisplayName="Select Item 'Microsoft Excel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NSelectItem_20" Item="Microsoft Excel (XLSX) Data-only" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                          <uix:NSelectItem.Items>
+                            <scg:List x:TypeArguments="x:String" Capacity="11">
+                              <x:String>Crystal Reports (RPT)</x:String>
+                              <x:String>PDF</x:String>
+                              <x:String>Microsoft Excel (XLSX)</x:String>
+                              <x:String>Microsoft Excel(XLS)</x:String>
+                              <x:String>Microsoft Excel (XLSX) Data-only</x:String>
+                              <x:String>Microsoft Excel (XLS) Data-Only</x:String>
+                              <x:String>Microsoft Word (RTF)</x:String>
+                              <x:String>Microsoft Word (RTF) - Editable</x:String>
+                              <x:String>Rich Text Format (RTF)</x:String>
+                              <x:String>Character Separated Values (CSV)</x:String>
+                              <x:String>XML</x:String>
+                            </scg:List>
+                          </uix:NSelectItem.Items>
+                          <uix:NSelectItem.Target>
+                            <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="wIs4zD0nzUycxfJ7rfItcQ" DesignTimeRectangle="877, 616, 249, 12" ElementType="Text" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;webctrl aria-role='button' class='combonocheck' tableRow='1' tag='TABLE' /&gt;&lt;webctrl class='iconText' tableRow='1' tag='DIV' /&gt;" Guid="f0217dc5-24dd-4a34-bd6a-07c2c596b438" InformativeScreenshot="51474e19d35ab6c3a92a538f3d4ab65b.png" Reference="jlixWVxK4Eivp7-kjKBINA/l0tfIFq9IEyQ2C3_SmxjwA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                          </uix:NSelectItem.Target>
+                        </uix:NSelectItem>
+                        <Assign sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[currentDate]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[Now.ToString("dd_MM_yyyy")]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <ui:GetLastDownloadedFile FileResource="{x:Null}" IgnoreFiles="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="[in_Config(&quot;DownloadFolder&quot;).ToString]" File="[New System.IO.FileInfo(&quot;crViewer_&quot; + currentDate + &quot;.xlsx&quot;)]" sap:VirtualizedContainerService.HintSize="450,557" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_1">
+                          <ui:GetLastDownloadedFile.Body>
+                            <ActivityAction>
+                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,276" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Export'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="591e5054-53e2-45a6-9e76-1b1c7311b480" Version="V5">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" ContentHash="dlqzewTBUEWbxO-SKPeY9Q" DesignTimeRectangle="1136, 808, 32, 12" ElementType="Text" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='1' tag='TABLE' idx='18' /&gt;&lt;webctrl tableRow='1' tag='A' aaname='Export' visibleinnertext='Export' /&gt;" Guid="c640bfe3-8c5e-4cc1-b053-89f64368b1cd" InformativeScreenshot="57394a0fbbc9087df99e8ddf68dc8626.png" Reference="jlixWVxK4Eivp7-kjKBINA/F2NmYKK3MkGJTCFB6xvSCQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                                  </uix:NClick.Target>
+                                  <uix:NClick.VerifyOptions>
+                                    <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears" Retry="True">
+                                      <uix:VerifyExecutionOptions.Timeout>
+                                        <InArgument x:TypeArguments="x:Double" />
+                                      </uix:VerifyExecutionOptions.Timeout>
+                                    </uix:VerifyExecutionOptions>
+                                  </uix:NClick.VerifyOptions>
+                                </uix:NClick>
+                              </Sequence>
+                            </ActivityAction>
+                          </ui:GetLastDownloadedFile.Body>
+                        </ui:GetLastDownloadedFile>
+                      </Sequence>
+                    </ActivityAction>
+                  </uix:NApplicationCard.Body>
+                  <uix:NApplicationCard.TargetApp>
+                    <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="XupXECAl4EuNRuqej_A0UQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAc7SURBVFhHnZZ7bJPXGcb9TwesBQKFlhVInBs4cRx/cZI2kOBbaBKgEMp/07oRaZom7fLXpk6l3P6ZNG0aDoEQCBAHkq6jqLu10tQtsZ17WLuhoRFStM2UJM6lYKfQrpDv+H2m95zPjhNCSznST8/zntjvc94Tf7JNpkdcYbeWNuV11E15S/1T3tLLH1eWxKYqSzHpLcGUl31JcMpb7J+sLN7Lr53//sde4zWaeaKytJ5DjDCa8BRj0lOCSU8xMVw/gLvYP+7WzPP7PfJSE5f4OFQGuVVYMtBdTBNuB4272TtowlCux90OhcuBcafj0PzeX7r45BOe4rARZDR2SD8nwCDCQQzXziKKuIrUHntFeLzsEW9j0lNkH3c7wvND1ERFxKhAFWSEIOLUkjrmLMLYFk3BXtVffgienMMTEyg1MILGnKppZIsRlBq2RcNoggo7xirsNCpR9Ui5PTxeZln4EPw/j7iKwioopXkyTDWWB2Ct0EjWHGAEqiDpaUTWSkfKCxlSag8v+JSMOjVfMkRBqRMZ0xhBynNDWXNzNSFulhdKjFDc3DwfG93cZPPNCdfe3G1u+qFrNoRDywuTgXIaI2TqR9/F3bfaoUfGkFj02YegqXcgLu+EuFTMEGucddABySUHMXH++6ADGEj5PBS/uce/xV+L4coiNZVxXVI325SvLsfdC+3J0EiMEBqeQWhYx/Xx+Oxhxn8D8YEL+mARhEQjMaghfkkjMaCpekDW6hY0/+40xxsvgzn0M2/yqjiY9aNNNoxUbcb968My4O9hHd/3f4rSw9MoPWRweBq7fHcQvDZj3MgwxPsVEIN2DlQ6wJ61EGKwkMRAYQyXtTST9sbuOq19N4rad4M1tKtEhjI3N9mI9c5v22TjU8F7KDk0PcvBFG/QHLynDhFpU2EDNoOCFGWsNNObX2fS2mr9Wlst7G27SGuvpVd+UYUbZQX4qMxKzOjL1bIhT1d8MCZxGDrL9Jz9D8K6fE/86l4S/Vbo/fkQCxAfyPeb7G21Qfv5WtjP7zKoxTt7SnCjzIrwC1bcfff3stmOI5+g6EBsloMpmvBG/b2Wu8bn4Tzp/XkQc7CQ6Lcg3m+heF/eZVPhuV2xwnM7kcDWuhNbj23Dv5w2hJ/Pp/vXr2E4IqAdiC1A9CHEMBaLA/dGIfo3UJI+CRi9bwPi/blRk83/EmytEpLeqH/+g3KES/OIJwkMzcC+P7owB2Lz6igK90cRMD6Qoi8Xem8OBNOXC9FnqKyzyVTQsgMF/pdQ4N9BUluVvtC0DVcqrLJJ59B92PZHH4CDUjV1v3PIOEBvNkRfFoneLBJ92dB7syBS4APErC3bSbED1pbtMJR+/KqT9MgoxqJxFLx++ytxLSJAn16F6M2E3pMJ0Wsm0WuWtfIZXEdN+We3/yP/zDYotiP/7Hbpraxnt1FP6IKcpO7MHVhfvw3rvttKv4CqX02rp2DyIlRQOuk96RCSDIie9cRe71kfNFnO1PjzTm/DLDXyAJbTNcT+O+++Kpv97b8zyN93G3n7bht6S/rZena/Y+i+uv73N0HvXg+9ex1EzzpiNTwEa/dav8nSXFNnaa5JBjKybq4mS3M1K85dUY/i8c7PYHntFiz7bimdz75bON7xP/na6ZEW0rvXQvSsJdHzHOndzyGBSGjX2r0ms9+dlneqOrbxVDVSsbA2VxFT0rqHrn38b9n4r1fvw/vLGDa+dmsO3z79CS79R33wRqMfItqTD73rGwZrILrXUEJF97PSI5imvpY3nqyu33iyChsMpD9VRYl6w8kqKvHvodYrv5MBvIbGhDwMMxqd/TLi17T8aRNE1xroXc8mEayhZ6SKrtUkQqv9yW9DS1ONeUPTi2ByDU34FCinaSu521/B29few5BxI7xG7kzA/8+38a0//BSuM07oodWKLkNDq6QXXatI+tAqnn7uL6Pcxsr63BNbkSCnkfVFcGjOCQmUVhL/LanzuPjHXNJDT6tQqStJKIUIrSTWeNfKB38pm33utOwTleHsRtU4+3glco5XSuU9qbzXOLdO5Zutz5MIrSA9uAJ6aAWkBldAGF6E0kgE08Lzs5PL7HObsxu94UTDrGNeZB/zIuu4lyTsjXqh/Rt/eQYiuJz04DLSg8shQstJsAaXkUH4gaufv/gQWQ2esGza4EHmMQ8x7BNksh7zSpW+wYuftBVCDyyFHlymNLAUIvgUMexnAkvDCC7+4vDE4kNkHvWEM496YG5wU+ZRt1TpGzwwH1U+QUXTZtx472nogac4FHrgyTmIwJPhzx81PHWZfe7D5no3Ho4L5qMuOvNWFvTOJRCBr0v0wGLiWg8s4X1f8nl/nMW3ke5z+TN8LmTUuyj9iJPYp/ucsi5vLIPeudhgEfSORdADi2J6x5L6z//8GFM/bPFTsv7XW+rSjzhbM3yuYPoRZyz9iBMXLq6DCDwRjXd87XK8Y7F/pvOJuq8y8f8BmWZYCb9aOw0AAAAASUVORK5CYII=" InformativeScreenshot="f9db84d494722e906504f9dc70641a90.jpg" Reference="jlixWVxK4Eivp7-kjKBINA/6f9Efvliqkup7ssmtq67lQ" Selector="&lt;html app='chrome.exe' url='https://expolanka.peopleshr.com/' /&gt;" Url="[peoplesHRURL]" Version="V2" />
+                  </uix:NApplicationCard.TargetApp>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </uix:NApplicationCard>
+              </Sequence>
+            </TryCatch.Try>
+            <TryCatch.Catches>
+              <Catch x:TypeArguments="ui:SelectorNotFoundException" sap:VirtualizedContainerService.HintSize="556,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ActivityAction x:TypeArguments="ui:SelectorNotFoundException">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ui:SelectorNotFoundException" Name="exception" />
+                  </ActivityAction.Argument>
+                  <Sequence sap:VirtualizedContainerService.HintSize="534,346" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Error" Message="[&quot;Login failed - Page elements not found: &quot; + exception.Message]" />
+                    <Throw Exception="[New BusinessRuleException(&quot;PeoplesHR Portal login page not accessible&quot;)]" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                  </Sequence>
+                </ActivityAction>
+              </Catch>
+              <Catch x:TypeArguments="swa:ElementNotEnabledException" sap:VirtualizedContainerService.HintSize="556,22" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ActivityAction x:TypeArguments="swa:ElementNotEnabledException">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="swa:ElementNotEnabledException" Name="exception" />
+                  </ActivityAction.Argument>
+                  <Sequence sap:VirtualizedContainerService.HintSize="534,281" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Error" Message="[&quot;Login failed - Elements not interactable: &quot; + exception.Message]" />
+                    <Rethrow sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
+                  </Sequence>
+                </ActivityAction>
+              </Catch>
+              <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="556,22" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ActivityAction x:TypeArguments="s:Exception">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                  </ActivityAction.Argument>
+                  <Sequence sap:VirtualizedContainerService.HintSize="534,281" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382,173" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Error" Message="[&quot;Login failed with system error: &quot; + exception.Message]" />
+                    <Rethrow sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="Rethrow_2" />
+                  </Sequence>
+                </ActivityAction>
+              </Catch>
+            </TryCatch.Catches>
+          </TryCatch>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hKn8dsHsgUK_HTY838NMsw" Reference="jlixWVxK4Eivp7-kjKBINA/qIIN_skOJ02f1qN7EJ7IZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" CVScreenId="bbbec50d-4acb-4d3b-bb08-cdf74ae66174" DesignTimeRectangle="144, 712, 21, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='button' parentid='headingTwo_000002' tag='A' /&gt;" Guid="e08532eb-ba13-4955-9d70-c2a0f0c715bd" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='da267e07-fdc7-3f67-67a0-2fa95ef5c2f3' title='PeoplesHR' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopRight" X="-7" Y="7" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d84a32d72d3a24ac5216d4b616b8512c.png" xmlns="">0RxxwYhGeg0uLy8KrjkWXzg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

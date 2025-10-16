@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CgJNQx07m0Kggzc0pCytjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" DesignTimeRectangle="29, 363, 300, 114" ElementType="DropDown" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='1' tag='TABLE' idx='12' /&gt;&lt;webctrl tableRow='1' tag='SELECT' id='crViewer_p2AvailableList' /&gt;" Guid="1c5a97a8-66b8-4469-9b93-75f2c4da5060" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d5c454a16b75b5bff04f8d62e12e2e5a.png" xmlns="">0NCZJIos_KUGH8jSvB8eetg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">InjectJsScript</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

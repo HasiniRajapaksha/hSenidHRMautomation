@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5oHPyz2bxU6I4jWcsk2O0g" Reference="jlixWVxK4Eivp7-kjKBINA/rOFhc376dEqc3gfW7jSJog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" DesignTimeRectangle="336, 403, 21, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='1' tag='TABLE' idx='11' /&gt;&lt;webctrl tableRow='1' tag='IMG' aaname='Add a discrete Value' alt='Add a discrete Value' /&gt;" Guid="453dc6c1-f772-45f5-80f6-e06c5331f1a8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4dc87ea79e49949f42ef2d4f4d0ac5ec.png" xmlns="">0a2Vzq_tazki_NkS3R-xDOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

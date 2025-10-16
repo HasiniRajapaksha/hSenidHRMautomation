@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7bFz0gWTOE2xGDgJwkWaaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/security/login" DesignTimeRectangle="8, 129, 1920, 911" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='HTML' /&gt;&lt;webctrl tag='BODY' /&gt;&lt;webctrl tag='DIV' idx='1' /&gt;" Guid="e358e820-0d6c-4f55-97b7-b219938e8488" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Welcome to PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1a3a0b02b00c3b519fdfcd12ddb895d4.png" xmlns="">0J3nfq6wQrUSn_08oC6KZ-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

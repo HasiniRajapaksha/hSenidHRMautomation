@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="g2F3SzCRnECVmGsDqjuONg" Reference="jlixWVxK4Eivp7-kjKBINA/KptirRWKlEqvLffjohVZBQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="iElJ3BEk2Um2Mix-CLW8MQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFOSURBVFhH3ZaxrcIwEIYZgRHeABSMgG6LdG8ElO46NkjBAExyYoSMkBEoKfN0kg/Zl8M5B7t4fNIvUdj8X2LH8m6XAZAugDQB0hwyAtKvHtdRP4dMHfVDR/2PHlNMKJNinVs8NhKIwyL7eJyb8OS6VOf1JoxyybhJApAeRqHOKOON4u0SgHQ0yszIHKNUZ0hbMjQS4Pg3ZuUlkCQbNwsgDUahjmcTxpnSlgyAtK/wGS4Sz1klSPDnGC8H/77osbook5Oe6yLI+D+lfw0gnYw1NyNzntfD7Ena9IZvFnidG1kaCviO44YCvqO4kYDv6ZkGAr61FyoLjM/roewAqygwFJczHwpModi34Sw2ChzTf/mAAoGHnluFAoG7nluFAoGznlsFpwBfTMp3uAenwOJWVA2HQJu1F1YE7s1evZARaPfaY5QAX835Zrz9ZFvhDwSwg+scVD/fAAAAAElFTkSuQmCC" Reference="jlixWVxK4Eivp7-kjKBINA/KptirRWKlEqvLffjohVZBQ" Selector="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/hr/*' /&gt;" Url="https://expolanka.peopleshr.com/hr/*" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="df4dcaa461f63d932c4fe00e7f0fe35a.jpg" xmlns="">0CZjzL6lGVUqyXMOzh01Y7w</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

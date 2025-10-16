@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Element 'Enter Active  Inactive…'",
+  "Type": "Element",
+  "Id": "nModBX8ExkCdvP2Z2jEVjA",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/nModBX8ExkCdvP2Z2jEVjA",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/6f9Efvliqkup7ssmtq67lQ",
+  "Created": "2025-10-14T05:32:52.9115489Z",
+  "Updated": "2025-10-14T05:32:52.9115489Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

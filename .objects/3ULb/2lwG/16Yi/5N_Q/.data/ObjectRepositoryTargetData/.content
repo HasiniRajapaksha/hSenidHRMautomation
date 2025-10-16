@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="46yjGpY9tECA8Pv7nTfWgQ" Reference="jlixWVxK4Eivp7-kjKBINA/n7FnYscodEOmeq0-VjvFmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" CVScreenId="449464d0-c6c2-4290-abc6-552164f3c3fc" CvElementArea="1127, 803, 50, 22" CvTextArea="1136, 808, 32, 13" CvTextArgument="Export" CvType="Button" DesignTimeRectangle="1136, 808, 32, 12" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;table' tableCol='1' tableRow='1' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='A' /&gt;" Guid="fe02148e-6f7e-4533-abb2-30976a2826c6" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='opacity' title='Viewer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="449464d0-c6c2-4290-abc6-552164f3c3fc" CvElementArea="871, 612, 261, 18" CvType="InputBox" DesignTimeRectangle="877, 616, 249, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aria-role='button' class='combonocheck' tag='TABLE' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;&lt;webctrl class='iconText' type='' tag='DIV' aaname='Microsoft Excel (XLSX) Data-only' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Microsoft Excel (XLSX) Data-only' /&gt;" Guid="0c3b34d5-a481-4d4a-ba75-f0f7b0ac5281" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b832497bc206521996ea5a08f2b6eaa3.png" xmlns="">02hgUtYnbc06ymBJ1uU05zQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

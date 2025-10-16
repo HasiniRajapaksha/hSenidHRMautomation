@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Available ValuesSelect…",
+  "Type": "Element",
+  "Id": "qIIN_skOJ02f1qN7EJ7IZQ",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/qIIN_skOJ02f1qN7EJ7IZQ",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/6f9Efvliqkup7ssmtq67lQ",
+  "Created": "2025-10-14T14:22:14.1570115Z",
+  "Updated": "2025-10-14T14:22:14.1570115Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Welcome to PeoplesHR",
+  "Type": "App",
+  "Id": "OgogCOBHgEG6UlkrgHNoOw",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/OgogCOBHgEG6UlkrgHNoOw",
+  "Created": "2025-10-09T05:59:49.0459989Z",
+  "Updated": "2025-10-09T05:59:49.0459989Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

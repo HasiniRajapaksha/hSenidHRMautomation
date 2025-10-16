@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YitTgxYDtkG2P-t8VvNYqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" DesignTimeRectangle="8, 129, 0, 0" ElementType="CheckBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='HTML' /&gt;&lt;webctrl tag='BODY' /&gt;&lt;webctrl tag='DIV' /&gt;" Guid="f6d3e3ae-2703-402e-b437-16c332766b23" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/hr/home/index' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

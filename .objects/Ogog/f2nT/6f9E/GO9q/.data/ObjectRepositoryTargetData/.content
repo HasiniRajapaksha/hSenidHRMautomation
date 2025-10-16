@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Xi5mCmqeeE2nWTSMnKR_hg" Reference="jlixWVxK4Eivp7-kjKBINA/GO9qDqZ1LUWcJ6mzS0CVZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" DesignTimeRectangle="948, 550, 40, 13" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='crViewer__UIcridpromptpage' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='crViewer_submitButton' tableRow='1' tag='A' /&gt;" Guid="feb58b6c-35b6-421f-91fc-b143633885e4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="88ee2997600f5bc1e7002c82c585c316.png" xmlns="">05iouh3sNOE6tf9-LD7_Htw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

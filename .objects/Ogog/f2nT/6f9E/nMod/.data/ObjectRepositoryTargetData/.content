@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="boOEHneEckGrKOEMFKK4WA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" DesignTimeRectangle="8, 129, 1920, 442" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='crViewer__UI_page' tag='DIV' /&gt;" Guid="96603b95-d223-412a-bf0d-dade9c6a3849" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx?rptsvr=0&amp;amp;subonly=0&amp;amp;indsubonly=0&amp;amp;myOnly=0&amp;amp;allSubordin=1&amp;amp;rptLocalTime=14%2f10%2f2025+11%3a00%3a41&amp;amp;CompHieCode=000149&amp;amp;CompHieName=-1&amp;amp;id=000156&amp;amp;ssrs=0&amp;amp;sp=0&amp;amp;RequatedReport=EIM+Profiles+EFL.rpt&amp;amp;export=True&amp;amp;print=True&amp;amp;FilterState=0&amp;amp;FilterViewID=NA&amp;amp;digest=w52HhTOb2WlvJfDj%2fqVxow' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fccef38f848eff14707eedd64ab56305.png" xmlns="">0EoEZt4jRxkexOsaWOJUb5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

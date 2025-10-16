@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="coAuoosKZ0CxPsDh3xMogQ" Reference="jlixWVxK4Eivp7-kjKBINA/kpRnJkJ030KvP_48wihtCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" CVScreenId="ba355413-ad31-4db7-b060-6d0fa54db440" CvTextArea="1738, 212, 48, 16" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="1688, 198, 178, 41" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname=' Logout' parentid='nav_static_top' tag='A' type='' class='' check:innerText='Logout' /&gt;" Guid="40cf6f3d-c666-4b98-9337-efb039762211" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='0e02c86c-ef87-3320-d397-eb7da67d02bd' title='PeoplesHR' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1684, 149, 186, 94" ElementType="List" FuzzySelectorArgument="&lt;webctrl type='' parentid='nav_static_top' tag='UL' class='dropdown-menu animated fadeInDown m-t-xs box-arrow user-menu show' aaname='                                                                                                ' /&gt;" Guid="4431edc9-cae2-4dea-a5e8-be9ebedfad0b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="69955e9ff1e6299ae733b9c6b45ae029.png" xmlns="">02u-Wr2z94kyIpJlWTbzMLg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

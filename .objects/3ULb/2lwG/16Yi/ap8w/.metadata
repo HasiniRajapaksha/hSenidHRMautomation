@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Select Multiple Items ",
+  "Type": "Element",
+  "Id": "ap8wXkIudEG2SsD54wouEw",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/ap8wXkIudEG2SsD54wouEw",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/16YiACdQDkqi7BfHkEOsXg",
+  "Created": "2025-10-15T10:56:05.9303428Z",
+  "Updated": "2025-10-15T10:56:05.9303428Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="of86Ubo8Y02ixApnE6x_tg" Reference="jlixWVxK4Eivp7-kjKBINA/PlwN1RR-ZUitoiX95sDEIw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="w3schools.com/css/css_dropdowns.asp" CVScreenId="ff59b2e7-c778-459d-af40-515c8a038a5a" CvElementArea="316, 471, 157, 59" CvTextArea="333, 493, 122, 19" CvTextArgument="Dropdown Menu" CvType="Button" DesignTimeRectangle="318, 473, 153, 56" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='' class='dropbtn' aaname='Dropdown Menu' check:innerText='Dropdown Menu' /&gt;" Guid="cd789c8a-b82c-40aa-9c54-bf2e9fbf7c40" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CSS Dropdowns' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="ff59b2e7-c778-459d-af40-515c8a038a5a" CvElementArea="316, 471, 157, 59" CvType="Button" DesignTimeRectangle="40, 452, 814, 98" FuzzySelectorArgument="&lt;webctrl type='' class='w3-row' parentid='main' tag='DIV' aaname='        ' check:innerText='Dropdown Text&amp;#xA;Dropdown Menu&amp;#xA;Other:' /&gt;" Guid="293ebb55-2351-4525-a7e1-9cbdf452b5e5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b0420c2285f3e5a8169113aca4cdea7f.png" xmlns="">0n5B48gsLKkGk7dN9tez3-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

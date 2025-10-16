@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z-y5-3GCck-FXYbB7Vt9Iw" Reference="jlixWVxK4Eivp7-kjKBINA/RzZ-Ac8piUafbpkDWy70MA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" CVScreenId="57027956-48c2-4a6e-a176-2a9baeb41688" CvTextArea="31, 378, 149, 14" CvTextArgument="Expolanka Freight (Pvt) Limited" CvType="Text" DesignTimeRectangle="31, 378, 149, 14" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;webctrl tableRow='1' tag='SELECT' idx='3' /&gt;&lt;webctrl aaname='Expolanka Freight (Pvt) Limited' tableRow='1' tag='OPTION' /&gt;" Guid="c2fdd11b-ed9b-4b2f-b4d6-47e3139ca0b6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="26, 347, 79, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='pePromptElementText' aaname='Available Values:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Available Values:' /&gt;" Guid="a91b3af0-b14f-45d2-a036-8011000e7cf5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="15edabf189622a21f335e4b2204219ea.png" xmlns="">0ygO2ZUCLMUqYh6VsqsVxSQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

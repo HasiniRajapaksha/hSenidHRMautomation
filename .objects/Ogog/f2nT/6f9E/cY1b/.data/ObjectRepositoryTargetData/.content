@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4Z8IeObISEaBXmFGeTqD7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" DesignTimeRectangle="404, 286, 282, 176" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='col-lg-3' tag='DIV' innertext='Report NavigatorModule ConfigurationUser GroupsAdd ReportsMy ReportsDefine Custom Filtration' visibleinnertext='Report Navigator&amp;#xA;Module Configuration&amp;#xA;User Groups&amp;#xA;Add Reports&amp;#xA;My Reports&amp;#xA;Define Custom Filtration' /&gt;" Guid="ff901b86-8ea4-46de-b3b8-8e0d2ab1313e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/hr/home/index' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fb5c8ff7f9ab0cfeaac109d9c8eadbb9.png" xmlns="">02igtiaeoIk6ZPaYtPHyb9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

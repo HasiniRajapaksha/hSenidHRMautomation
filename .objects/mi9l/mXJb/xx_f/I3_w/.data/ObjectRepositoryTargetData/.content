@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="r2P2jiB6NkGRdpqdGbqjyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 0, 0" FullSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;&lt;webctrl tableRow='1' tag='SELECT' id='crViewer_p1SelectValue' innertext='...GroupCompanyDepartmentSub Department' onchange='crViewer_p1_selectValue(this.form)' /&gt;" Guid="9417f793-33d9-4dfd-8b44-55e3f8d77ac2" SearchSteps="Selector" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="43e0ab7444168aa8343a6d2a6c5ad5ba.png" xmlns="">0P3raxTq-9UGHj8iHTzIR1g</imageRef>
+    </TargetAnchorable>
+    <p:InArgument x:TypeArguments="ui:WaitForReady" x:Key="ClassicWaitForReady">COMPLETE</p:InArgument>
+    <x:Boolean x:Key="IsClassic">True</x:Boolean>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

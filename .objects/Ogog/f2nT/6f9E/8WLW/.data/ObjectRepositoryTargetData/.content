@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SVVM0kVT1kGFvBzRUJE37w" Reference="jlixWVxK4Eivp7-kjKBINA/8WLWRLbdH0SwlbOoYyAByQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/security/login" DesignTimeRectangle="1068, 573, 600, 38" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='txtusername' tag='INPUT' name='UserName' placeholder='Username' type='text' /&gt;" Guid="419d4fe0-21f8-45c8-8e32-63a75d8b8458" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Welcome to PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e1a6ddd6312ddb52ff5b0089ab995c7f.png" xmlns="">0ockRw4o3x0u-tchO7-D8yA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

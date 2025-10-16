@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RoIwIIAwLUiaPUvNn3mIeg" Reference="jlixWVxK4Eivp7-kjKBINA/9oEkkxwQ-0Wtw918wLgxfQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" CVScreenId="5dc9e9c7-782b-403a-ab6c-b5cf2205b2a3" CvElementArea="28, 300, 26, 21" CvType="Icon" DesignTimeRectangle="33, 303, 18, 16" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='qck19' tag='EM' /&gt;" Guid="d124699a-b7f1-499c-b445-4008f20defaa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACRSURBVDhPY9B3CPhPC8yALkAtPOQNbv/fsubQ/+UbycRrVv6PQzWYQgPheM3/TFSD+//3bDz0f/HS7f/ngxVs+J/rguk9nNhl0v8J+Aye07UQTNPQYHLxwBm84X+uO6aXw3p3/5/f24Ahru8+GhTEBgUiHZOLMQwO/x/UtPn/YgyFpOE5/e3/rVANpj4eNRiOAV/+44Zp5VGTAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='001f317e-8485-19c9-29a6-af8ad91047ec' title='PeoplesHR' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d2e12ddc-6467-4ef6-8e94-b9c23d6668be" CvTextArea="104, 302, 109, 16" CvTextArgument="Report Navigator" CvType="Text" DesignTimeRectangle="104, 302, 109, 16" ElementType="Text" Guid="ebcadfbd-9c69-4e40-bb34-5d18991f9ce8" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4cc6a5c71838a0275757630d4a6cf978.png" xmlns="">0_64mM4QOSk24fcyeoGcd0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Tp35UZ3jmE20eV-Lc1Y6xg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" DesignTimeRectangle="162, 562, 94, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='RptTable' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' aaname='EIM Profiles New' innertext='EIM Profiles New' rowName='                     EIM Profiles New                                        ' visibleinnertext='EIM Profiles New' /&gt;" Guid="629172de-b293-45b6-ba9c-c5587c7741c7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f6e2f4f47615934ab3dc8f031da020ea.png" xmlns="">0grAHYb0sC02hF5ey0q1OAA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

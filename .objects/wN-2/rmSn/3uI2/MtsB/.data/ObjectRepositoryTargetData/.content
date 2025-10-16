@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zNkZnKiy5ESo7WoNBEUfhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" DesignTimeRectangle="761, 202, 173, 35" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='bobjid_1760562979346' tag='TABLE' /&gt;&lt;webctrl tableRow='7' tag='IFRAME' /&gt;&lt;webctrl aaname='EIM Profiles' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='bobjid_1760562979346' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl tag='IFRAME' /&gt;&lt;webctrl aaname='EIM Profiles' tag='SPAN' type='' class='fc0c744781-a549-411b-aea8-11fd38478b96-0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='EIM Profiles' /&gt;" Guid="44c1daf8-5d68-4285-b656-60ef5ff63da0" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='opacity' title='Viewer' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="8, 129, 1668, 28" FuzzySelectorArgument="&lt;webctrl id='crViewer_toptoolbar_palette' tag='TABLE' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl type='' parentid='crViewer_toptoolbar_palette' class='' aaname='' tag='TD' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='Find...' /&gt;" Guid="ab31c4c5-fe7d-424d-b798-d4ed6635ddd2" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9a5f37fe4a9ee97ce1a9d0bb720b3000.png" xmlns="">0npK_GmY5TE-uX5MZJYkAzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

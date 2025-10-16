@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fwx9tCDUHUq16J03X9_geQ" Reference="jlixWVxK4Eivp7-kjKBINA/GhB3yqd4MEW0FMQ_dUokwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" DesignTimeRectangle="29, 163, 300, 17" ElementType="DropDown" ElementVisibilityArgument="Visible" FullSelectorArgument="&lt;webctrl tag='TD' idx='7' /&gt;&lt;webctrl tag='DIV' /&gt;&lt;webctrl tag='SELECT' /&gt;" Guid="0d5c1403-209c-4f91-b39e-318a689320cb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="45bf9f0a43177d959b920d9a74ddb32a.png" xmlns="">0tR5-8nO4dkaqLmWGqJTyGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

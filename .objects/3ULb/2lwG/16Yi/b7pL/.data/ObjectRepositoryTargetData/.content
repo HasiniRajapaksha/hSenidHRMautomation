@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ykcgisVdt0-W1Y2L9H2f5A" Reference="jlixWVxK4Eivp7-kjKBINA/M_rUF-klk0OrEvy8daEzmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/RNV9/Viewer/ViewReport.aspx" CVScreenId="d93866af-e52e-4697-b052-2dfa7678b40b" CvElementArea="937, 545, 63, 22" CvTextArea="960, 551, 16, 11" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="948, 550, 40, 13" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='crViewer__UIcridpromptpage' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='crViewer_submitButton' tableRow='1' tag='A' /&gt;" Guid="26e9a686-a77e-4dca-a2a4-e44a59e61546" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Viewer' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="15, 228, 1906, 281" FuzzySelectorArgument="&lt;webctrl type='' tag='FIELDSET' class='pePromptFieldset' aaname='  ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='HIE_CODE/DEF_LEVEL &amp;#x9; HIE_CODE/DEF_LEVEL &amp;#xA;&amp;#xA;&amp;#xA; Enter Business Unit Level:&amp;#xA;&amp;#xA;...&amp;#xA;Group&amp;#xA;Company&amp;#xA;Department&amp;#xA;Sub Department&amp;#xA;&amp;#x9;&amp;#xA;&amp;#x9;&amp;#xA;&amp;#x9;&amp;#xA;&amp;#x9;&amp;#xA; Enter Business Unit:&amp;#xA;&amp;#xA;Available Values:&amp;#xA;&amp;#xA;&amp;#x9;&amp;#xA;&amp;#xA;&amp;#xA;&amp;#x9;&amp;#xA;&amp;#x9;&amp;#xA;&amp;#x9;&amp;#xA;Selected Values:&amp;#xA;&amp;#xA;&amp;#xA;&amp;#xA;&amp;#x9;&amp;#xA;  Remove  &amp;#xA;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#xA;Remove All' /&gt;" Guid="8feb9b82-32a9-4370-a832-50a5c2848997" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e213f651647257a410d02a8bb81d31b7.png" xmlns="">0wV_xRtyc0k-kLTwsBjtfYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

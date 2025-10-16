@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oFjoklJdm0WPYjX3qHbPWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 0, 0" FullSelectorArgument="&lt;html app='chrome.exe' title='Viewer' url='https://expolanka.peopleshr.com/hr/RNV9/Viewer/*' /&gt;&lt;webctrl tableRow='1' tag='SELECT' aaname='Available Values:' id='crViewer_p2AvailableList' /&gt;" Guid="f95ca269-0f1c-428c-8897-d36c6970ec39" SearchSteps="Selector" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="49f32b8c21d43cdc17ec76c44fa1ce61.png" xmlns="">0JcBKMUmw3kGGhUQ1smawaQ</imageRef>
+    </TargetAnchorable>
+    <p:InArgument x:TypeArguments="ui:WaitForReady" x:Key="ClassicWaitForReady">COMPLETE</p:InArgument>
+    <x:Boolean x:Key="IsClassic">True</x:Boolean>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

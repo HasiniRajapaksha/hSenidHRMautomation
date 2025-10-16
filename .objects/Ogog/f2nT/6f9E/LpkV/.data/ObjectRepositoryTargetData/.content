@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8PVuq-ZDpkyPdlwLZs1yXg" Reference="jlixWVxK4Eivp7-kjKBINA/4KP9tnbMoECY_oMQipi8SA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" CVScreenId="c49e669f-3d3d-435a-9d04-953a5c70786c" CvTextArea="458, 373, 65, 15" CvTextArgument="My Reports" CvType="Text" DesignTimeRectangle="459, 371, 64, 17" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='My Reports' parentid='divPopupContent' tag='A' type='' class='' check:innerText='My Reports' /&gt;" Guid="be82505b-a3de-49b2-8c73-bfd26391ea89" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='d40df7a3-49cb-a3ce-817e-83ec3f2057b2' title='PeoplesHR' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="c49e669f-3d3d-435a-9d04-953a5c70786c" CvTextArea="388, 163, 185, 26" CvTextArgument="Report Navigator" CvType="Text" DesignTimeRectangle="389, 159, 960, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='divPopupContent' tag='H2' type='' class='' aaname='Report Navigator' check:innerText='Report Navigator' /&gt;" Guid="e9103b1a-8da3-45b8-b0a0-adbd11fd94d6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0c319de5a260b9752d367c103b67f86e.png" xmlns="">0jBBTpKn87Ei9jTtOCv4qHg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

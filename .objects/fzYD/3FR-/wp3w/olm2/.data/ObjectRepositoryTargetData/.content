@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rJ3nhGo21U2J2AnNg8I5IA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 0, 0" FullSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' /&gt;&lt;webctrl id='RptTable' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' visibleinnertext='EIM Profiles New' /&gt;" Guid="9abd7b2b-9c2c-4e69-8bb1-64021798cb4b" SearchSteps="Selector">
+      <imageRef attrName="InformativeScreenshot" originalValue="152edd68f3b3d547e0e59ec785ff9231.png" xmlns="">0GE-VIfFudk6XyafBXTCAfA</imageRef>
+    </TargetAnchorable>
+    <p:InArgument x:TypeArguments="ui:WaitForReady" x:Key="ClassicWaitForReady" />
+    <x:Boolean x:Key="IsClassic">True</x:Boolean>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

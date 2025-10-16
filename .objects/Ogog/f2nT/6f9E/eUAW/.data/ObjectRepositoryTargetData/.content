@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZV92plLr_kCBs2jxxshaXQ" Reference="jlixWVxK4Eivp7-kjKBINA/eUAWdowvwECxFGcLAFbhLg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expolanka.peopleshr.com/hr/home/index" DesignTimeRectangle="33, 303, 18, 16" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='qck19' tag='EM' /&gt;" FuzzyAccuracy="0.98" FuzzySelectorArgument="&lt;webctrl parentid='qck19' tag='EM' type='' class='fas fa-newspaper' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='' /&gt;" Guid="70aba5bb-a380-43c5-b554-9eec95ea1bba" ScopeSelectorArgument="&lt;html app='chrome.exe' title='PeoplesHR' url='https://expolanka.peopleshr.com/hr/home/index' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="f69f7f4806c4799410648f7e0818fa71.png" xmlns="">0k-SlkKxVhUerIvGaXjkUcg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

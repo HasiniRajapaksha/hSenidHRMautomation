@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Crystal Reports (RPT)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "l0tfIFq9IEyQ2C3_SmxjwA",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/l0tfIFq9IEyQ2C3_SmxjwA",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/6f9Efvliqkup7ssmtq67lQ",
+  "Created": "2025-10-14T21:19:42.7147192Z",
+  "Updated": "2025-10-14T21:19:42.7147192Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

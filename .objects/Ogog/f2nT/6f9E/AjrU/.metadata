@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT txtpassword",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "AjrU0f0uhUiw9fZzfdduQg",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/AjrU0f0uhUiw9fZzfdduQg",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/6f9Efvliqkup7ssmtq67lQ",
+  "Created": "2025-10-13T08:02:52.802699Z",
+  "Updated": "2025-10-13T08:02:52.802699Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

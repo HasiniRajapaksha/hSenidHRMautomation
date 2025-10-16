@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'EIM Profiles'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "MtsBOS1TbEmJNNu37DC8nw",
+  "Reference": "jlixWVxK4Eivp7-kjKBINA/MtsBOS1TbEmJNNu37DC8nw",
+  "ParentRef": "jlixWVxK4Eivp7-kjKBINA/3uI2AlYAukGMROjim_cRzQ",
+  "Created": "2025-10-15T21:18:28.854132Z",
+  "Updated": "2025-10-15T21:18:28.854132Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
